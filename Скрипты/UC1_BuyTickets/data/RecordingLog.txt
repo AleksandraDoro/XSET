@@ -1,0 +1,339 @@
+[API Trapper      (1994:13f4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (14a4: 29c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( b44:2dcc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( b44:2dbc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b44:2dbc)] Load Network Traffic Analyzers:
+[Network Analyzer ( b44:2dbc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( b44:2dbc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( b44:2dbc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( b44:2dbc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( b44:2dbc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( b44:2dbc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( b44:2dbc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( b44:1d50)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[API Trapper      (33bc:2cac)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 209.85.233.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 64.233.161.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( b44:3a2c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:2ec0)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 74.125.131.94:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 209.85.233.188:5228   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:345c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:2df4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 64.233.165.102:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( b44:3a2c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:2ec0)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:345c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:347c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=108"   
+[Network Analyzer ( b44:1d50)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Client -> Server @ : 2603 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      ( b44:1d50)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Web Request      ( b44:1d50)] "POST /service/update2/json?cup2key=12:G4f7kFWT2ARMDu2_maxaGFyqqL8vH81_w300oc0ntvs&cup2hreq=32652928a6f26c01876ae1a1cb62dafddb4481f9c5aecb28b966818e234af996"   
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Client -> Server @ : 1482 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  1) Server -> Client : 322 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Server -> Client : 2434 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Server -> Client : 341 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Server -> Client : 29 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44: 94c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Server -> Client : 1269 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Server -> Client : 307 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( b44:2df4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:3bf4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:347c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44: 94c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:3bf4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:1d50)]   (Sid:  4) Client -> Server @ : 156 bytes (SSL)
+[Web Request      ( b44:1d50)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=108.0.5359.125&lang=ru&acceptformat=crx3&x=id%3Dbejnpnkhfgfkcpgikiinojlmdcjimobi%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26ping%3Dr%253D11%2526e%253D1&x=id%3Dddadgcdmddljmpkpinkalnepdepplpkj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26ping%3Dr%253D11%2526e%253D1&x=id%3Ddkekdlkmdpipihonapoleopfekmapadh%26v%3D0.0.0.0%26installedby%3Dexternal%26uc%26ping%3Dr%253D11%2526e%253D1"   
+[Network Analyzer ( b44:1d50)]   (Sid:  6) Client -> Server @ : 1047 bytes (SSL)(Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Client -> Server @ : 735 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 142.250.150.113:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid:  4) Server -> Client : 1 bytes (SSL)
+[Network Analyzer ( b44:1d50)]   (Sid:  4) Server -> Client : 67 bytes (SSL)
+[Network Analyzer ( b44:1d50)]   (Sid:  4) Server -> Client : 12 bytes (SSL)
+[Network Analyzer ( b44:3610)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:1d50)]   (Sid:  6) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  6) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:3610)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Client -> Server @ : 776 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /favicon.ico"   
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Client -> Server @ : 641 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 74.125.131.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( b44:26e4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:26e4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( b44:1d50)] "POST /service/update2/json?cup2key=12:2d6VcnbH9seKoNDV2rJzoEUwf-d8I6swvQsQl0nzRPA&cup2hreq=bd03ca5b4c4ea8308d70146e54a742fc3079ef02e60898513fb48f2389c2c46d"
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Client -> Server @ : 1399 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Client -> Server @ : 9952 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Server -> Client : 1261 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Server -> Client : 260 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 11) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent login [Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( b44:3b3c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:3b3c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( b44:1d50)] "GET /v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTA4LjAuNTM1OS4xMjUaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCUxg8aAhgHQOdENCIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQ5c4LGgIYB1zTA_siBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEIKnDBoCGAfFl97nIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYB9wOo-QiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEM0wGgIYB4c3vJYiBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEJ9zGgIYB4AsMAsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgH112erCIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAdKXSQoIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDkERoCGAdfAFAEIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCQ2AEaAhgHvHXv8CIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQw8ULGgIYBz2nKakiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABENrnBhoCGAeRaEE7IgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARDAFhoCGAeJuuxkIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer ( b44:1d50)]   (Sid: 12) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 12) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 12) Server -> Client : 164 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Client -> Server @ : 1030 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Server -> Client : 860 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Client -> Server @ : 894 bytes (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( b44:1d50)]   (Sid: 14) Client -> Server @ : 889 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 14) Server -> Client : 1159 bytes  (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 74.125.131.94:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( b44:1294)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( b44:1294)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( b44:1d50)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 15) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent login [API Trapper      (16bc:1858)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent choose_ticket [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Client -> Server @ : 928 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Client -> Server @ : 911 bytes (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer ( b44:1d50)]   (Sid: 17) Client -> Server @ : 912 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 17) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 17) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer ( b44:1d50)]   (Sid: 17) Connection Terminated (by Server)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 18) Client -> Server @ : 1305 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 18) Server -> Client : 3856 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 19) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent choose_ticket [User action                 ] StartTransactionEvent choose_time_of_flight [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 20) Client -> Server @ : 1224 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 20) Server -> Client : 3020 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 21) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent choose_time_of_flight [User action                 ] StartTransactionEvent payment [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 22) Client -> Server @ : 1374 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 22) Server -> Client : 2960 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer ( b44:1d50)]   (Sid: 23) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent payment [User action                 ] StartTransactionEvent book_another [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 24) Client -> Server @ : 1070 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 24) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 24) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 24) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent book_another [Network Analyzer ( b44:1d50)]   (Sid: 25) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent itinerary [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Client -> Server @ : 931 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Client -> Server @ : 913 bytes (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Client -> Server @ : 896 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Client -> Server @ : 810 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Server -> Client : 2919 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Client -> Server @ : 798 bytes (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Client -> Server @ : 802 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Server -> Client : 1130 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Server -> Client : 1040 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer ( b44:1d50)]   (Sid: 26) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent itinerary [User action                 ] StartTransactionEvent home [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Client -> Server @ : 929 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Client -> Server @ : 904 bytes (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer ( b44:1d50)]   (Sid: 29) Client -> Server @ : 899 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 29) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer ( b44:1d50)]   (Sid: 29) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent home [User action                 ] StartTransactionEvent logout [Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( b44:2dbc)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer ( b44:2dbc)] Address lookup for LAPTOP-80B1697P = 192.168.1.35
+[Web Request      ( b44:1d50)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Client -> Server @ : 923 bytes (Service=HTTP)
+[Network Analyzer ( b44:2dbc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( b44:1d50)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Client -> Server @ : 773 bytes (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( b44:1d50)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer ( b44:1d50)]   (Sid: 31) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent logout 
