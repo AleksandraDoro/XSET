@@ -1,6 +1,6 @@
 Action()
 {
-		lr_start_transaction("UC4_Buying");
+		lr_start_transaction("UC5_Itinerary");
 		
 		lr_start_transaction("open_site");
 
@@ -258,9 +258,52 @@ Action()
 	lr_end_transaction("payment",LR_AUTO);
 
 	lr_think_time(69);
+	
+	
+
+	
+		lr_start_transaction("itinerary");
+		
+//					web_reg_find("Fail=NotFound",
+//		"Text/IC=Transaction Summary",
+//		LAST);
+//			
+			web_reg_find("Fail=NotFound",
+		"Text=<b>Invoice sent to:</b>",
+		LAST);
+
+//	web_reg_find("Fail=NotFound",
+//		"Text/IC=<b>A total of  scheduled flights.</b>",
+//		LAST);
+
+			web_revert_auto_header("Origin");
+		
+			web_revert_auto_header("Sec-Fetch-User");
+		
+			web_revert_auto_header("Upgrade-Insecure-Requests");
+		
+			web_add_auto_header("Sec-Fetch-User", 
+				"?1");
+		
+			lr_think_time(58);
+			
+
+
+		
+			web_url("Itinerary Button", 
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+				"Snapshot=t8.inf", 
+				"Mode=HTML", 
+				LAST);
+
+	lr_end_transaction("itinerary",LR_AUTO);
 
 	
 
-		lr_end_transaction("UC4_Buying",LR_AUTO);
+		lr_end_transaction("UC5_Itinerary",LR_AUTO);
 	return 0;
 }
