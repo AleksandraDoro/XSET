@@ -57,7 +57,7 @@ Action()
 	lr_end_transaction("open_site", LR_AUTO);
 
 	
-	
+				lr_think_time(5);
 	
 	/* Buying_ticket */
 
@@ -77,8 +77,6 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(6);
 		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -101,15 +99,13 @@ Action()
 
 	
 	
-
+			lr_think_time(5);
 	
 
 
 	lr_start_transaction("search_flights_button");
 	
 			web_revert_auto_header("Sec-Fetch-User");
-		
-			lr_think_time(45);
 		
 
 	web_url("Search Flights Button", 
@@ -130,9 +126,8 @@ Action()
 			
 lr_end_transaction("search_flights_button",LR_AUTO);
 		
-			lr_think_time(21);
 			
-			
+					lr_think_time(5);	
 			
 			
 lr_start_transaction("choose_ticket");
@@ -182,9 +177,8 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_ticket",LR_AUTO);
 
-	lr_think_time(72);
 
-	
+			lr_think_time(5);	
 	
 	
 	lr_start_transaction("choose_time_of_flight");
@@ -214,8 +208,8 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_time_of_flight",LR_AUTO);
 
-	lr_think_time(45);
 	
+			lr_think_time(5);
 	
 	
 		lr_start_transaction("payment");
@@ -258,8 +252,44 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("payment",LR_AUTO);
 
-	lr_think_time(69);
 
+			lr_think_time(5);
+			
+				
+				
+	lr_start_transaction("itinerary");
+		
+
+			
+						web_reg_find("Fail=NotFound",
+		"Text/IC=Itinerary",
+		LAST);	
+		
+		
+			web_revert_auto_header("Origin");
+		
+			web_revert_auto_header("Sec-Fetch-User");
+		
+			web_revert_auto_header("Upgrade-Insecure-Requests");
+		
+			web_add_auto_header("Sec-Fetch-User", 
+				"?1");
+			
+
+					web_url("Itinerary Button", 
+				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+				"TargetFrame=body", 
+				"Resource=0", 
+				"RecContentType=text/html", 
+				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+				"Snapshot=t8.inf", 
+				"Mode=HTML", 
+				LAST);
+
+	lr_end_transaction("itinerary",LR_AUTO);
+				
+	
+				lr_think_time(5);
 	
 	
 		lr_start_transaction("logout");
@@ -270,8 +300,6 @@ lr_start_transaction("choose_ticket");
 
 			web_add_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(33);
 		
 			web_url("SignOff Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 

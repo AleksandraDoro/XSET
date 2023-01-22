@@ -57,11 +57,10 @@ Action()
 	lr_end_transaction("open_site", LR_AUTO);
 
 	
-	
+		lr_think_time(5);
 	
 	/* Buying_ticket */
 
-	
 	
 	
 	lr_start_transaction("login");
@@ -77,8 +76,6 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(6);
 		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -100,15 +97,13 @@ Action()
 	lr_end_transaction("login",LR_AUTO);
 
 	
-	
+		lr_think_time(5);
 	
 	
 	
 	lr_start_transaction("search_flights_button");
 	
 			web_revert_auto_header("Sec-Fetch-User");
-		
-			lr_think_time(45);
 		
 
 	web_url("Search Flights Button", 
@@ -129,9 +124,8 @@ Action()
 			
 lr_end_transaction("search_flights_button",LR_AUTO);
 		
-			lr_think_time(21);
 			
-			
+			lr_think_time(5);	
 			
 			
 lr_start_transaction("choose_ticket");
@@ -181,9 +175,8 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_ticket",LR_AUTO);
 
-	lr_think_time(72);
-
 	
+			lr_think_time(5);
 	
 	
 	lr_start_transaction("choose_time_of_flight");
@@ -213,7 +206,7 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_time_of_flight",LR_AUTO);
 
-	lr_think_time(45);
+			lr_think_time(5);
 	
 		lr_start_transaction("logout");
 	
@@ -224,7 +217,6 @@ lr_start_transaction("choose_ticket");
 			web_add_header("Sec-Fetch-User", 
 				"?1");
 		
-			lr_think_time(33);
 		
 			web_url("SignOff Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 

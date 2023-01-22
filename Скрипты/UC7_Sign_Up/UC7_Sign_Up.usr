@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC7_Sign_Up__*delimiter*__open_site__*delimiter*__signUpButton__*delimiter*__profileFill__*delimiter*__afterReg__*delimiter*__logout"
+Order="UC7_Sign_Up__*delimiter*__open_site__*delimiter*__signUpButton__*delimiter*__profileFill__*delimiter*__afterReg"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,4 +64,3 @@ open_site=
 signUpButton=
 profileFill=
 afterReg=
-logout=

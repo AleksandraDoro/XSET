@@ -59,7 +59,7 @@ Action()
 
 
 	
-	
+			lr_think_time(5);	
 	/* Sign_Up */
 	
 
@@ -72,8 +72,6 @@ Action()
 
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
-
-	lr_think_time(104);
 
 	web_url("login.pl", 
 		"URL=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
@@ -88,6 +86,7 @@ Action()
 	lr_end_transaction("signUpButton",LR_AUTO);
 	
 	
+				lr_think_time(5);
 	
 	
 	lr_start_transaction("profileFill");
@@ -118,7 +117,7 @@ Action()
 
 	lr_end_transaction("profileFill",LR_AUTO);
 	
-	
+				lr_think_time(5);
 
 	lr_start_transaction("afterReg");
 	
@@ -129,8 +128,6 @@ Action()
 	web_revert_auto_header("Origin");
 
 	web_revert_auto_header("Sec-Fetch-User");
-
-	lr_think_time(23);
 
 	web_url("button_next.gif", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
@@ -144,29 +141,27 @@ Action()
 
 	lr_end_transaction("afterReg",LR_AUTO);
 	
-	
-
-	lr_start_transaction("logout");
-	
-			web_reg_find("Fail=NotFound",
-				"Text/IC=Welcome to the Web Tours site.",
-				LAST);
-		
-			web_revert_auto_header("Sec-Fetch-User");
-		
-			lr_think_time(64);
-		
-			web_url("SignOff Button", 
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-				"Snapshot=t3.inf", 
-				"Mode=HTML", 
-				LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
+//				lr_think_time(5);
+//
+//	lr_start_transaction("logout");
+//	
+//			web_reg_find("Fail=NotFound",
+//				"Text/IC=Welcome to the Web Tours site.",
+//				LAST);
+//		
+//			web_revert_auto_header("Sec-Fetch-User");
+//		
+//			web_url("SignOff Button", 
+//				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+//				"TargetFrame=body", 
+//				"Resource=0", 
+//				"RecContentType=text/html", 
+//				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+//				"Snapshot=t3.inf", 
+//				"Mode=HTML", 
+//				LAST);
+//
+//	lr_end_transaction("logout",LR_AUTO);
 	
 		lr_end_transaction("UC7_Sign_Up",LR_AUTO);
 	return 0;

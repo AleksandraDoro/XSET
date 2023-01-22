@@ -59,7 +59,7 @@ lr_start_transaction("open_site");
 
 	lr_end_transaction("open_site", LR_AUTO);
 		
-
+	lr_think_time(5);
 	/* Login step */
 
 	lr_start_transaction("login");
@@ -94,30 +94,29 @@ web_reg_find("Fail=NotFound",
 
 	lr_end_transaction("login",LR_AUTO);
 
-	
-		/* Logout step */
-	
-	lr_start_transaction("logout");
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=Welcome to the Web Tours site.",
-		LAST);
-
-	web_revert_auto_header("Sec-Fetch-User");
-
-	lr_think_time(64);
-
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t3.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
+//		lr_think_time(5);
+//		
+//		/* Logout step */
+//	
+//	lr_start_transaction("logout");
+//	
+//	web_reg_find("Fail=NotFound",
+//		"Text/IC=Welcome to the Web Tours site.",
+//		LAST);
+//
+//	web_revert_auto_header("Sec-Fetch-User");
+//
+//	web_url("SignOff Button", 
+//		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+//		"TargetFrame=body", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+//		"Snapshot=t3.inf", 
+//		"Mode=HTML", 
+//		LAST);
+//
+//	lr_end_transaction("logout",LR_AUTO);
 
 	
 		lr_end_transaction("UC2_LoginLogout",LR_AUTO);

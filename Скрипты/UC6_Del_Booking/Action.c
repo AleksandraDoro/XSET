@@ -57,6 +57,8 @@ lr_start_transaction("open_site");
 		lr_end_transaction("open_site",LR_AUTO);
 
 		
+					lr_think_time(5);
+		
 		
 	lr_start_transaction("login");
 	
@@ -70,7 +72,6 @@ lr_start_transaction("open_site");
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
 
-	lr_think_time(67);
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -81,14 +82,15 @@ lr_start_transaction("open_site");
 
 	lr_end_transaction("login",LR_AUTO);
 	
-	
+				
+			lr_think_time(5);
+				
 
 	lr_start_transaction("itinerary");
 	
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-	lr_think_time(45);
 	
 				web_reg_find("Fail=NotFound",
 				"Text/IC=Itinerary",
@@ -102,7 +104,8 @@ lr_start_transaction("open_site");
 	lr_end_transaction("itinerary",LR_AUTO);
 	
 	
-	
+				lr_think_time(5);
+				
 
 	lr_start_transaction("delete_booking");
 
@@ -112,12 +115,10 @@ lr_start_transaction("open_site");
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
 
-	lr_think_time(65);
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=<b>Invoice sent to:</b>",
 		LAST);
-
 	
 	
 	web_submit_form("itinerary.pl", 
@@ -131,7 +132,10 @@ lr_start_transaction("open_site");
 	lr_end_transaction("delete_booking",LR_AUTO);
 	
 	
-	
+				lr_think_time(5);
+				
+				
+				
 
 	lr_start_transaction("logout");
 	
@@ -141,7 +145,6 @@ lr_start_transaction("open_site");
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-	lr_think_time(36);
 
 	web_url("welcome.pl_2", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 

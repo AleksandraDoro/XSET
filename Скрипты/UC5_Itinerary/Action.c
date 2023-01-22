@@ -58,7 +58,7 @@ Action()
 
 	
 	
-	
+				lr_think_time(5);
 	/* Buying_ticket */
 
 	
@@ -77,8 +77,6 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(6);
 		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -100,7 +98,7 @@ Action()
 	lr_end_transaction("login",LR_AUTO);
 
 	
-	
+				lr_think_time(5);
 
 	
 	lr_start_transaction("itinerary");
@@ -120,10 +118,7 @@ Action()
 		
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(58);
 			
-
 
 					web_url("Itinerary Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -136,31 +131,31 @@ Action()
 				LAST);
 
 	lr_end_transaction("itinerary",LR_AUTO);
-
 	
-	
-		lr_start_transaction("logout");
-	
-				web_reg_find("Fail=NotFound",
-		"Text/IC=Welcome to the Web Tours site.",
-		LAST);
 
-			web_add_header("Sec-Fetch-User", 
-				"?1");
-		
-			lr_think_time(33);
-		
-			web_url("SignOff Button", 
-				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-				"Snapshot=t10.inf", 
-				"Mode=HTML", 
-				LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
+//				lr_think_time(5);
+//				
+//	
+//		lr_start_transaction("logout");
+//	
+//				web_reg_find("Fail=NotFound",
+//		"Text/IC=Welcome to the Web Tours site.",
+//		LAST);
+//
+//			web_add_header("Sec-Fetch-User", 
+//				"?1");
+//		
+//			web_url("SignOff Button", 
+//				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+//				"TargetFrame=body", 
+//				"Resource=0", 
+//				"RecContentType=text/html", 
+//				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+//				"Snapshot=t10.inf", 
+//				"Mode=HTML", 
+//				LAST);
+//
+//	lr_end_transaction("logout",LR_AUTO);
 	
 
 		lr_end_transaction("UC5_Itinerary",LR_AUTO);
