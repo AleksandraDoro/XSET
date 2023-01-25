@@ -88,7 +88,7 @@ Action()
 				"Mode=HTML",
 				ITEMDATA,
 				"Name=userSession", "Value={userSession}", ENDITEM,
-				"Name=username", "Value={login}<", ENDITEM,
+				"Name=username", "Value={login}", ENDITEM,
 				"Name=password", "Value={password}", ENDITEM,
 				"Name=login.x", "Value=51", ENDITEM,
 				"Name=login.y", "Value=2", ENDITEM,

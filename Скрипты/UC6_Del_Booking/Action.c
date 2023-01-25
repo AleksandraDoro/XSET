@@ -32,18 +32,6 @@ lr_start_transaction("open_site");
 		"Text/IC=Welcome to the Web Tours site.",
 		LAST);
 
-		
-//		/*Correlation comment - Do not change!  Original value='135531.084487647zQHVDiApVfiDDDDDtVicipciAQf' Name ='userSession' Type ='ResponseBased'*/
-//			web_reg_save_param_attrib(
-//				"ParamName=userSession",
-//				"TagName=input",
-//				"Extract=value",
-//				"Name=userSession",
-//				"Type=hidden",
-//				SEARCH_FILTERS,
-//				"IgnoreRedirections=No",
-//				"RequestUrl=*/nav.pl*",
-//				LAST);
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true", 
@@ -54,7 +42,7 @@ lr_start_transaction("open_site");
 		"Mode=HTML", 
 		LAST);
 	
-		lr_end_transaction("open_site",LR_AUTO);
+	lr_end_transaction("open_site",LR_AUTO);
 
 		
 					lr_think_time(5);
@@ -117,7 +105,7 @@ lr_start_transaction("open_site");
 
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=<b>Invoice sent to:</b>",
+		"Text/IC={login}",
 		LAST);
 	
 	
@@ -133,9 +121,7 @@ lr_start_transaction("open_site");
 	
 	
 				lr_think_time(5);
-				
-				
-				
+								
 
 	lr_start_transaction("logout");
 	

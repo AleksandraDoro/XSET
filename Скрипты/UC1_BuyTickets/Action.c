@@ -59,11 +59,9 @@ Action()
 	lr_end_transaction("open_site", LR_AUTO);
 
 	
-	
+		lr_think_time(5);
 	
 	/* Buying_ticket */
-
-	
 	
 	
 	lr_start_transaction("login");
@@ -80,7 +78,6 @@ Action()
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
 		
-			lr_think_time(6);
 		
 			web_submit_data("login.pl",
 				"Action=http://localhost:1080/cgi-bin/login.pl",
@@ -102,15 +99,12 @@ Action()
 	lr_end_transaction("login",LR_AUTO);
 
 	
-	
-	
+		lr_think_time(5);
 	
 	
 	lr_start_transaction("search_flights_button");
 	
 			web_revert_auto_header("Sec-Fetch-User");
-		
-			lr_think_time(45);
 		
 
 	web_url("Search Flights Button", 
@@ -131,8 +125,9 @@ Action()
 			
 lr_end_transaction("search_flights_button",LR_AUTO);
 		
-			lr_think_time(21);
 			
+
+	lr_think_time(5);
 			
 			
 			
@@ -153,8 +148,7 @@ lr_start_transaction("choose_ticket");
 		"LB/IC=returnFlight\" value=\"",
 		"RB/IC=\"",
 		LAST);
-			
-	
+				
 
 	web_submit_data("reservations.pl",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -183,9 +177,8 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_ticket",LR_AUTO);
 
-	lr_think_time(72);
-
 	
+	lr_think_time(5);
 	
 	
 	lr_start_transaction("choose_time_of_flight");
@@ -215,12 +208,11 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("choose_time_of_flight",LR_AUTO);
 
-	lr_think_time(45);
 
+		lr_think_time(5);
 	
 	
-	
-		lr_start_transaction("payment");
+	lr_start_transaction("payment");
 	
 
 			web_reg_find("Fail=NotFound",
@@ -260,37 +252,12 @@ lr_start_transaction("choose_ticket");
 
 	lr_end_transaction("payment",LR_AUTO);
 
-	lr_think_time(69);
 
-	
-	
-	
-	lr_start_transaction("book_another");
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=Departure City",
-		LAST);
+		lr_think_time(5);
+		
+		
 
-			web_submit_data("reservations.pl_4", 
-				"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-				"Method=POST", 
-				"TargetFrame=", 
-				"RecContentType=text/html", 
-				"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-				"Snapshot=t7.inf", 
-				"Mode=HTML", 
-				ITEMDATA, 
-				"Name=Book Another.x", "Value=43", ENDITEM, 
-				"Name=Book Another.y", "Value=5", ENDITEM, 
-				LAST);
-
-	lr_end_transaction("book_another",LR_AUTO);
-
-	
-	
-	
-
-		lr_start_transaction("itinerary");		
+	lr_start_transaction("itinerary");		
 			
 						web_reg_find("Fail=NotFound",
 		"Text/IC=leaves {depart}  for {arrive}.",
@@ -305,8 +272,6 @@ lr_start_transaction("choose_ticket");
 		
 			web_add_auto_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(58);
 			
 		
 			web_url("Itinerary Button", 
@@ -322,6 +287,8 @@ lr_start_transaction("choose_ticket");
 	lr_end_transaction("itinerary",LR_AUTO);
 	
 	
+		lr_think_time(5);
+	
 	
 	lr_start_transaction("home");
 	
@@ -333,8 +300,7 @@ lr_start_transaction("choose_ticket");
 		
 			web_add_auto_header("Upgrade-Insecure-Requests", 
 				"1");
-		
-			lr_think_time(70);
+
 		
 			web_url("Home Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
@@ -349,7 +315,7 @@ lr_start_transaction("choose_ticket");
 	lr_end_transaction("home",LR_AUTO);
 
 	
-	
+		lr_think_time(5);
 	
 	
 	lr_start_transaction("logout");
@@ -360,8 +326,6 @@ lr_start_transaction("choose_ticket");
 
 			web_add_header("Sec-Fetch-User", 
 				"?1");
-		
-			lr_think_time(33);
 		
 			web_url("SignOff Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
