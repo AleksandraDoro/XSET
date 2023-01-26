@@ -79,10 +79,14 @@ lr_start_transaction("open_site");
 
 	web_revert_auto_header("Sec-Fetch-User");
 
+//				web_reg_find("Fail=NotFound",
+//				"Text/IC=Itinerary",
+//				LAST);	
 	
-				web_reg_find("Fail=NotFound",
-				"Text/IC=Itinerary",
-				LAST);	
+	web_reg_save_param("flightID",
+		"LB/IC=flightID\" value=\"",
+		"RB/IC=\"",
+		LAST);
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -108,6 +112,10 @@ lr_start_transaction("open_site");
 		"Text/IC={login}",
 		LAST);
 	
+	web_reg_find("Fail=Found",
+		"Text/IC={flightID}",
+		LAST);
+
 	
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t4.inf", 

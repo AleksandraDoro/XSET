@@ -54,7 +54,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC6_Del_Booking__*delimiter*__open_site__*delimiter*__login__*delimiter*__itinerary__*delimiter*__delete_booking__*delimiter*__logout"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
