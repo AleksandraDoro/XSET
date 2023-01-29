@@ -64,7 +64,7 @@ Action()
 	
 
 	
-	lr_start_transaction("signUpButton");
+	lr_start_transaction("sign_up_button");
 	
 	web_reg_find("Fail=NotFound",
 		"Text=Please choose a username and password",
@@ -83,13 +83,13 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("signUpButton",LR_AUTO);
+	lr_end_transaction("sign_up_button",LR_AUTO);
 	
 	
 				lr_think_time(5);
 	
 	
-	lr_start_transaction("profileFill");
+	lr_start_transaction("profile_fill");
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Thank you, <b>{randomName}{randomPart}{randomPart2}</b>,",
@@ -115,11 +115,11 @@ Action()
 		"Name=register.y", "Value=7", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("profileFill",LR_AUTO);
+	lr_end_transaction("profile_fill",LR_AUTO);
 	
 				lr_think_time(5);
 
-	lr_start_transaction("afterReg");
+	lr_start_transaction("after_reg");
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Welcome, <b>{randomName}{randomPart}{randomPart2}</b>, to the Web Tours reservation pages.",
@@ -139,7 +139,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("afterReg",LR_AUTO);
+	lr_end_transaction("after_reg",LR_AUTO);
 	
 //				lr_think_time(5);
 //
