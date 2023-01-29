@@ -72,7 +72,7 @@
     "IsWinInetMode": false,
     "MaxUsedConnections": 14,
     "RecordedBrowser": "Chrome",
-    "RecordingDate": "РЎРЏР Р…Р Р†-07-2023",
+    "RecordingDate": "Р В Р’В Р В Р вЂ№Р В Р’В Р В Р РЏР В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В¦Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В -07-2023",
     "RecordingDuration": 514781,
     "RecordingMode": "N/A",
     "RecordingTimeStamp": 1673108289,
@@ -442,5 +442,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 8
+  "NumberOfCorrelations": 12
 }
