@@ -92,7 +92,7 @@ Action()
 	lr_start_transaction("profile_fill");
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Thank you, <b>{randomName}{randomPart}{randomPart2}</b>,",
+		"Text/IC=Thank you, <b>{randomName}{randomPart}{randomPart2}{randomPart3}</b>,",
 		LAST);
 
 	web_submit_data("login.pl_3", 
@@ -104,10 +104,10 @@ Action()
 		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={randomName}{randomPart}{randomPart2}", ENDITEM, 
+		"Name=username", "Value={randomName}{randomPart}{randomPart2}{randomPart3}", ENDITEM, 
 		"Name=password", "Value={randomPass}", ENDITEM, 
 		"Name=passwordConfirm", "Value={randomPass}", ENDITEM, 
-		"Name=firstName", "Value={randomName}{randomPart}{randomPart2}", ENDITEM, 
+		"Name=firstName", "Value={randomName}{randomPart}{randomPart2}{randomPart3}", ENDITEM, 
 		"Name=lastName", "Value={randomLast}", ENDITEM, 
 		"Name=address1", "Value=", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
@@ -122,7 +122,7 @@ Action()
 	lr_start_transaction("after_reg");
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Welcome, <b>{randomName}{randomPart}{randomPart2}</b>, to the Web Tours reservation pages.",
+		"Text/IC=Welcome, <b>{randomName}{randomPart}{randomPart2}{randomPart3}</b>, to the Web Tours reservation pages.",
 		LAST);
 
 	web_revert_auto_header("Origin");
@@ -141,27 +141,7 @@ Action()
 
 	lr_end_transaction("after_reg",LR_AUTO);
 	
-//				lr_think_time(5);
-//
-//	lr_start_transaction("logout");
-//	
-//			web_reg_find("Fail=NotFound",
-//				"Text/IC=Welcome to the Web Tours site.",
-//				LAST);
-//		
-//			web_revert_auto_header("Sec-Fetch-User");
-//		
-//			web_url("SignOff Button", 
-//				"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-//				"TargetFrame=body", 
-//				"Resource=0", 
-//				"RecContentType=text/html", 
-//				"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-//				"Snapshot=t3.inf", 
-//				"Mode=HTML", 
-//				LAST);
-//
-//	lr_end_transaction("logout",LR_AUTO);
+			
 	
 		lr_end_transaction("UC7_Sign_Up",LR_AUTO);
 	return 0;

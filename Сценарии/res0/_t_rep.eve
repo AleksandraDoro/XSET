@@ -1,0 +1,53 @@
+28 11 1675207174 2 377668928 -217342466 1699684
+28 4 UC2_LoginLogout 1 1675207183 0 UC2_LoginLogout localhost 0 1
+28 10 localhost 28 0 0
+28 0 UC2_LoginLogout 1 1675207183 0 localhost 0
+28 8 UC2_LoginLogout 1  0 0
+28 4 UC3_ChooseFlight 1 1675207185 0 UC3_ChooseFlight localhost 0 1
+28 4 UC4_Buying 1 1675207185 0 UC4_Buying localhost 0 1
+28 4 UC4_Buying 2 1675207185 0 UC4_Buying localhost 0 1
+28 4 UC4_Buying 3 1675207185 0 UC4_Buying localhost 0 1
+28 0 UC3_ChooseFlight 1 1675207185 0 localhost 0
+28 8 UC3_ChooseFlight 1  0 0
+28 4 UC5_Itinerary 1 1675207185 0 UC5_Itinerary localhost 0 1
+28 0 UC4_Buying 1 1675207185 0 localhost 0
+28 8 UC4_Buying 1  0 0
+28 0 UC4_Buying 3 1675207185 0 localhost 0
+28 8 UC4_Buying 3  0 0
+28 0 UC4_Buying 2 1675207185 0 localhost 0
+28 8 UC4_Buying 2  0 0
+28 0 UC5_Itinerary 1 1675207185 0 localhost 0
+28 8 UC5_Itinerary 1  0 0
+28 4 UC6_Del_Booking 1 1675207186 0 UC6_Del_Booking localhost 0 1
+28 4 UC6_Del_Booking 2 1675207186 0 UC6_Del_Booking localhost 0 1
+28 0 UC6_Del_Booking 1 1675207186 0 localhost 0
+28 8 UC6_Del_Booking 1  0 0
+28 4 UC7_Sign_Up_1 1 1675207186 0 UC7_Sign_Up_1 localhost 0 1
+28 4 UC7_Sign_Up_1 2 1675207186 0 UC7_Sign_Up_1 localhost 0 1
+28 0 UC6_Del_Booking 2 1675207186 0 localhost 0
+28 8 UC6_Del_Booking 2  0 0
+28 0 UC7_Sign_Up_1 1 1675207186 0 localhost 0
+28 8 UC7_Sign_Up_1 1  0 0
+28 0 UC7_Sign_Up_1 2 1675207186 0 localhost 0
+28 8 UC7_Sign_Up_1 2  0 0
+28 2 UC4_Buying 1 1675207186 0 p 0 0
+28 2 UC7_Sign_Up_1 1 1675207201 0 p 0 0
+28 2 UC6_Del_Booking 1 1675207216 0 p 0 0
+28 2 UC3_ChooseFlight 1 1675207231 0 p 0 0
+28 2 UC4_Buying 2 1675207246 0 p 0 0
+28 2 UC2_LoginLogout 1 1675207261 0 p 0 0
+28 2 UC5_Itinerary 1 1675207276 0 p 0 0
+28 2 UC7_Sign_Up_1 2 1675207291 0 p 0 0
+28 2 UC6_Del_Booking 2 1675207306 0 p 0 0
+28 2 UC4_Buying 3 1675207321 0 p 0 0
+28 1 UC6_Del_Booking 2 1675208642 0 2
+28 1 UC2_LoginLogout 1 1675208642 0 2
+28 1 UC7_Sign_Up_1 1 1675208642 0 2
+28 1 UC5_Itinerary 1 1675208642 0 2
+28 1 UC7_Sign_Up_1 2 1675208642 0 2
+28 1 UC6_Del_Booking 1 1675208642 0 2
+28 1 UC3_ChooseFlight 1 1675208643 0 2
+28 1 UC4_Buying 1 1675208649 0 2
+28 1 UC4_Buying 3 1675208662 0 2
+28 1 UC4_Buying 2 1675208673 0 2
+28 12 1675208675 1 1675208675 0 1675208675
