@@ -1,0 +1,43 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2021.0.0.0
+Path=C:\Users\Aleksandra\Documents\GitHub\XSET\Scenario\Scenario2.lrs
+Subject=Scenario2
+Result_file=C:\Users\Aleksandra\Documents\GitHub\XSET\—ценарии\res8\res8.lrr
+Description=
+ResultName=res8
+Time_Zone=-10800
+Start_time=1675591266
+Daylight_Bias=0
+Stop_time=1675592828
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize all Vusers simultaneously
+Global Schedule=ST10_1E15;R1320;SP10;
+[Scripts]
+UC4_Buying1=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC4_Buying1\UC4_Buying1.usr
+UC3_ChooseFlight=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC3_ChooseFlight\UC3_ChooseFlight.usr
+UC2_LoginLogout=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC2_LoginLogout\UC2_LoginLogout.usr
+UC5_Itinerary=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC5_Itinerary\UC5_Itinerary.usr
+UC7_Sign_Up=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC7_Sign_Up\UC7_Sign_Up.usr
+UC6_Del_Booking=C:\Users\Aleksandra\Documents\GitHub\XSET\Scripts\UC6_Del_Booking\UC6_Del_Booking.usr
+[Scripts_types]
+UC4_Buying1=Multi+QTWeb
+UC3_ChooseFlight=Multi+QTWeb
+UC2_LoginLogout=Multi+QTWeb
+UC5_Itinerary=Multi+QTWeb
+UC7_Sign_Up=Multi+QTWeb
+UC6_Del_Booking=Multi+QTWeb
