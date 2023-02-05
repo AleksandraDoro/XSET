@@ -1,0 +1,1163 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(91):     <input type="hidden" name="flightID" value="329667430-12461636-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1270 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 020 leaves Denver  for London.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 200 leaves London  for Denver.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="17" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329666-1307-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 0 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 00 leaves Denver  for Denver.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD wi
+Action.c(91): t=333150ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1000\r\n
+Action.c(91): t=333150ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333150ms: 4096-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     dth="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="18" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329700015-1391603-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 842 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 900 leaves Zurich  for Denver.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 090 leaves Denver  for Zurich.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="19" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329669658-15230891-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1584 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 080 leaves Denver  for Sydney.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 800 leaves Sydney  for Denver.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="20" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329686303-1565415-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 396 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 530 leaves Portland  for Los Angeles.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 350 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="21" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329695942-1690068-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/
+Action.c(91): t=333152ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1000\r\n
+Action.c(91): t=333152ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333152ms: 4096-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     >\n
+Action.c(91):               Total Charge: $ 894 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 790 leaves Seattle  for Zurich.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 970 leaves Zurich  for Seattle.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="22" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="3296748-17092-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 0 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 220 leaves London  for London.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 220 leaves London  for London.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="23" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329695949-18438561-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1298 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 790 leaves Seattle  for Zurich.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 970 leaves Zurich  for Seattle.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="24" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329694820-1897717-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 324 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 760 leaves Seattle  for San Francisco.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 670 leaves San Francisco  for Seattle.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="25" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329689282-19353942-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD wi
+Action.c(91): t=333153ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1000\r\n
+Action.c(91): t=333153ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333153ms: 4096-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     dth="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1250 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 610 leaves San Francisco  for Frankfurt.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 160 leaves Frankfurt  for San Francisco.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="26" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329677417-2070810-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 542 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 290 leaves London  for Zurich.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 920 leaves Zurich  for London.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="27" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329668528-2115426-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 550 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 050 leaves Denver  for Portland.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 500 leaves Portland  for Denver.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="28" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="32967430-2169328-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1270 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/3
+Action.c(91): t=333155ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1000\r\n
+Action.c(91): t=333155ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333155ms: 4096-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1/2023\n
+Action.c(91):      :  8am : Flight 20 leaves Denver  for London.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 20 leaves Denver  for London.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="29" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329686306-2257736-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 574 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       01/31/2023\n
+Action.c(91):      :  8am : Flight 530 leaves Portland  for Los Angeles.<br>  01/31/2023\n
+Action.c(91):      :  8am : Flight 350 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="30" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329674097-23092405-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1270 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 200 leaves London  for Denver.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 020 leaves Denver  for London.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="31" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329694448-2428480-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 242 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 750 leaves Seattle  for Portland.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 570 leaves Portland  for Seattle.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="32" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329685204-24653925-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></t
+Action.c(91): t=333156ms: 6-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     1000\r\n
+Action.c(91): t=333156ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333156ms: 4096-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     r></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1030 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 500 leaves Portland  for Denver.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 050 leaves Denver  for Portland.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="33" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329682623-25646280-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1644 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 430 leaves Paris  for Los Angeles.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 340 leaves Los Angeles  for Paris.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="34" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="32969446-2659240-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 128 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 750 leaves Seattle  for Portland.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 570 leaves Portland  for Seattle.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="35" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329667063-27000111-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1446 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/01/2023\n
+Action.c(91):      :  8am : Flight 010 leaves Denver  for Frankfurt.<br>  02/01/2023\n
+Action.c(91):      :  8am : Flight 100 leaves Frankfurt  for Denver.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <h
+Action.c(91): t=333159ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     dea\r\n
+Action.c(91): t=333159ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     \r\n
+Action.c(91): t=333159ms: 3562-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     r/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <!-- Flight #1 -->\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(91):     <b>\n
+Action.c(91):     <label><input type="checkbox" name="36" value="on" /></label></font></b>\n
+Action.c(91):     <input type="hidden" name="flightID" value="329683366-28107830-RE"  />\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="45%" valign="top">\n
+Action.c(91):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br/>\n
+Action.c(91):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(91):           <li><i>Ripley Ellen\n
+Action.c(91):           <li><i></i>\n
+Action.c(91):           </td></tr></table></center>\n
+Action.c(91):       </TD>\n
+Action.c(91):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(91):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(91):           <center>\n
+Action.c(91):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(91):               Ripley Ellen\n
+Action.c(91):     <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               <br/>\n
+Action.c(91):               Total Charge: $ 1802 <BR/> (CC: x-8901)\n
+Action.c(91):           </td> </tr> </table>\n
+Action.c(91):           </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="3">\n
+Action.c(91):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(91):       02/02/2023\n
+Action.c(91):      :  8am : Flight 450 leaves Paris  for Portland.<br>  02/02/2023\n
+Action.c(91):      :  8am : Flight 540 leaves Portland  for Paris.<br>  </center>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     \n
+Action.c(91):     <TR bgcolor="#EFF2F7">\n
+Action.c(91):       <TD COLSPAN="4">\n
+Action.c(91):       <hr/>\n
+Action.c(91):       </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     <TR>\n
+Action.c(91):        <TD align="center" COLSPAN="4">\n
+Action.c(91):        <b>A total of 36 scheduled flights.</font></b>\n
+Action.c(91):        </TD>\n
+Action.c(91):     </TR>\n
+Action.c(91):     </TABLE>\n
+Action.c(91):     \n
+Action.c(91):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+Action.c(91):     <TR>\n
+Action.c(91):     <TD align="left" width="50%" >\n
+Action.c(91):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Action.c(91):     er="0" /></TD>\n
+Action.c(91):     <TD align="right" width="50%" >\n
+Action.c(91):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Action.c(91):     f" border="0" /></TD>\n
+Action.c(91):     </TABLE>\n
+Action.c(91):     \n
+Action.c(91):     <div><input type="hidden" name=".cgifields" value="33"  /><input type="hidden" name=".cgif
+Action.c(91):     ields" value="32"  /><input type="hidden" name=".cgifields" value="21"  /><input type="hid
+Action.c(91):     den" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="26"  /><
+Action.c(91):     input type="hidden" name=".cgifields" value="17"  /><input type="hidden" name=".cgifields"
+Action.c(91):      value="2"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" nam
+Action.c(91):     e=".cgifields" value="18"  /><input type="hidden" name=".cgifields" value="30"  /><input t
+Action.c(91):     ype="hidden" name=".cgifields" value="16"  /><input type="hidden" name=".cgifields" value=
+Action.c(91):     "27"  /><input type="hidden" name=".cgifields" value="25"  /><input type="hidden" name=".c
+Action.c(91):     gifields" value="28"  /><input type="hidden" name=".cgifields" value="20"  /><input type="
+Action.c(91):     hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="24" 
+Action.c(91):      /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifie
+Action.c(91):     lds" value="31"  /><input type="hidden" name=".cgifields" value="35"  /><input type="hidde
+Action.c(91):     n" name=".cgifields" value="11"  /><input type="hidden" name=".cgifields" value="22"  /><i
+Action.c(91):     nput type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifields" 
+Action.c(91):     value="23"  /><input type="hidden" name=".cgifields" value="29"  /><input type="hidden" na
+Action.c(91):     me=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="36"  /><input t
+Action.c(91):     ype="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="
+Action.c(91):     9"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgi
+Action.c(91):     fields" value="15"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hid
+Action.c(91):     den" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="34"  /><
+Action.c(91):     input type="hidden" name=".cgifields" value="19"  /><input type="hidden" name=".cgifields"
+Action.c(91):      value="5"  /></div></form>\n
+Action.c(91):     \n
+Action.c(91):     </center>\n
+Action.c(91):     \n
+Action.c(91):     </body>\n
+Action.c(91):     </html>
+Action.c(91): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(91): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(91): t=333164ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(91): t=333164ms: 764-byte request headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=55)
+Action.c(91):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+Action.c(91):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+Action.c(91):     Sec-Fetch-Dest: frame\r\n
+Action.c(91):     Sec-Fetch-Mode: navigate\r\n
+Action.c(91):     Sec-Fetch-Site: same-origin\r\n
+Action.c(91):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(91):     sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"\r\n
+Action.c(91):     sec-ch-ua-mobile: ?0\r\n
+Action.c(91):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(91):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(91):     o) Chrome/109.0.0.0 Safari/537.36\r\n
+Action.c(91):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(91):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(91):     Accept: */*\r\n
+Action.c(91):     Connection: Keep-Alive\r\n
+Action.c(91):     Host: localhost:1080\r\n
+Action.c(91):     Cookie: MSO=SID&1675365404; MTUserInfo=firstName&Ripley&address2&&username&ripley&hash&89&
+Action.c(91):     lastName&Ellen%0A&address1&&creditCard&&expDate&%0A\r\n
+Action.c(91):     \r\n
+Action.c(91): t=333165ms: Already connected [1] to localhost:1080  	[MsgId: MMSG-26000]
+Action.c(91): t=333165ms: 768-byte request headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=56)
+Action.c(91):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+Action.c(91):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+Action.c(91):     Sec-Fetch-Dest: frame\r\n
+Action.c(91):     Sec-Fetch-Mode: navigate\r\n
+Action.c(91):     Sec-Fetch-Site: same-origin\r\n
+Action.c(91):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(91):     sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"\r\n
+Action.c(91):     sec-ch-ua-mobile: ?0\r\n
+Action.c(91):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(91):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(91):     o) Chrome/109.0.0.0 Safari/537.36\r\n
+Action.c(91):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(91):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(91):     Accept: */*\r\n
+Action.c(91):     Connection: Keep-Alive\r\n
+Action.c(91):     Host: localhost:1080\r\n
+Action.c(91):     Cookie: MSO=SID&1675365404; MTUserInfo=firstName&Ripley&address2&&username&ripley&hash&89&
+Action.c(91):     lastName&Ellen%0A&address1&&creditCard&&expDate&%0A\r\n
+Action.c(91):     \r\n
+Action.c(91): t=333165ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=52)
+Action.c(91):     0\r\n
+Action.c(91):     \r\n
+Action.c(91): t=333165ms: Request done "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(91): t=333166ms: 298-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=55)
+Action.c(91):     HTTP/1.1 200 OK\r\n
+Action.c(91):     Date: Thu, 02 Feb 2023 19:16:55 GMT\r\n
+Action.c(91):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(91):     Last-Modified: Thu, 12 Jan 2012 13:30:28 GMT\r\n
+Action.c(91):     ETag: "24000000037a78-33f-4b654c0620500"\r\n
+Action.c(91):     Accept-Ranges: bytes\r\n
+Action.c(91):     Content-Length: 831\r\n
+Action.c(91):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(91):     Connection: Keep-Alive\r\n
+Action.c(91):     Content-Type: image/gif\r\n
+Action.c(91):     \r\n
+Action.c(91): t=333166ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=55)
+Action.c(91): t=333167ms: Request done "http://localhost:1080/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+Action.c(91): t=333183ms: 298-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=56)
+Action.c(91):     HTTP/1.1 200 OK\r\n
+Action.c(91):     Date: Thu, 02 Feb 2023 19:16:55 GMT\r\n
+Action.c(91):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(91):     Last-Modified: Thu, 12 Jan 2012 13:30:28 GMT\r\n
+Action.c(91):     ETag: "2d000000037a72-2e6-4b654c0620500"\r\n
+Action.c(91):     Accept-Ranges: bytes\r\n
+Action.c(91):     Content-Length: 742\r\n
+Action.c(91):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(91):     Connection: Keep-Alive\r\n
+Action.c(91):     Content-Type: image/gif\r\n
+Action.c(91):     \r\n
+Action.c(91): t=333183ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=56)
+Action.c(91): t=333183ms: Request done "http://localhost:1080/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+Action.c(91): web_image("Itinerary Button") was successful, 49465 body bytes, 1921 header bytes, 115 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(96): Notify: Transaction "itinerary" ended with a "Pass" status (Duration: 0,2980 Wasted Time: 0,0003).	[MsgId: MMSG-16871]
+Action.c(99): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(102): Notify: Transaction "delete_booking" started.	[MsgId: MMSG-16999]
+Action.c(104): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(104): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(104): "Origin: http://localhost:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(104): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(107): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(107): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Action.c(107): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(107): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(111): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(111): Notify: Parameter Substitution: parameter "login" =  "ripley"	[MsgId: MMSG-13992]
+Action.c(111): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(115): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(115): Notify: Parameter Substitution: parameter "flightID" =  "3296866709-1115563-RE"	[MsgId: MMSG-13992]
+Action.c(115): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(120): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(120): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(120): t=338193ms: Closed connection [0] to localhost:1080 after completing 3 request(s)  	[MsgId: MMSG-26000]
+Action.c(120): t=338194ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(120): t=338195ms: Connected socket [0] from 127.0.0.1:18355 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(120): t=338195ms: 870-byte request headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     POST /cgi-bin/itinerary.pl HTTP/1.1\r\n
+Action.c(120):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(120):     Referer: http://localhost:1080/cgi-bin/itinerary.pl\r\n
+Action.c(120):     Origin: http://localhost:1080\r\n
+Action.c(120):     Sec-Fetch-Dest: frame\r\n
+Action.c(120):     Sec-Fetch-Mode: navigate\r\n
+Action.c(120):     Sec-Fetch-Site: same-origin\r\n
+Action.c(120):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(120):     sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"\r\n
+Action.c(120):     sec-ch-ua-mobile: ?0\r\n
+Action.c(120):     sec-ch-ua-platform: "Windows"\r\n
+Action.c(120):     Sec-Fetch-User: ?1\r\n
+Action.c(120):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(120):     o) Chrome/109.0.0.0 Safari/537.36\r\n
+Action.c(120):     Accept-Encoding: gzip, deflate, br\r\n
+Action.c(120):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(120):     Accept: */*\r\n
+Action.c(120):     Connection: Keep-Alive\r\n
+Action.c(120):     Host: localhost:1080\r\n
+Action.c(120):     Cookie: MSO=SID&1675365404; MTUserInfo=firstName&Ripley&address2&&username&ripley&hash&89&
+Action.c(120):     lastName&Ellen%0A&address1&&creditCard&&expDate&%0A\r\n
+Action.c(120):     Content-Length: 1612\r\n
+Action.c(120):     \r\n
+Action.c(120): t=338195ms: 1612-byte request body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     1=on&flightID=3296866709-1115563-RE&flightID=3296763003-2015553-RE&flightID=32967787-25423
+Action.c(120):     -RE&flightID=329672608-354681-RE&flightID=329701489-422339-RE&flightID=3296966711-4754033-
+Action.c(120):     RE&flightID=3296981537-5831001-RE&flightID=3296988944-6754077-RE&flightID=329688177-757704
+Action.c(120):     6-RE&flightID=329681860-780037-RE&flightID=329697432-8753949-RE&flightID=329680776-9869380
+Action.c(120):     -RE&flightID=3296770470-10631184-RE&flightID=32969279-1130853-RE&flightID=32968172-1184716
+Action.c(120):     -RE&flightID=329667430-12461636-RE&flightID=329666-1307-RE&flightID=329700015-1391603-RE&f
+Action.c(120):     lightID=329669658-15230891-RE&flightID=329686303-1565415-RE&flightID=329695942-1690068-RE&
+Action.c(120):     flightID=3296748-17092-RE&flightID=329695949-18438561-RE&flightID=329694820-1897717-RE&fli
+Action.c(120):     ghtID=329689282-19353942-RE&flightID=329677417-2070810-RE&flightID=329668528-2115426-RE&fl
+Action.c(120):     ightID=32967430-2169328-RE&flightID=329686306-2257736-RE&flightID=329674097-23092405-RE&fl
+Action.c(120):     ightID=329694448-2428480-RE&flightID=329685204-24653925-RE&flightID=329682623-25646280-RE&
+Action.c(120):     flightID=32969446-2659240-RE&flightID=329667063-27000111-RE&flightID=329683366-28107830-RE
+Action.c(120):     &.cgifields=33&.cgifields=32&.cgifields=21&.cgifields=7&.cgifields=26&.cgifields=17&.cgifi
+Action.c(120):     elds=2&.cgifields=1&.cgifields=18&.cgifields=30&.cgifields=16&.cgifields=27&.cgifields=25&
+Action.c(120):     .cgifields=28&.cgifields=20&.cgifields=14&.cgifields=24&.cgifields=10&.cgifields=31&.cgifi
+Action.c(120):     elds=35&.cgifields=11&.cgifields=22&.cgifields=13&.cgifields=23&.cgifields=29&.cgifields=6
+Action.c(120):     &.cgifields=36&.cgifields=3&.cgifields=9&.cgifields=12&.cgifields=15&.cgifields=8&.cgifiel
+Action.c(120):     ds=4&.cgifields=34&.cgifields=19&.cgifields=5&removeFlights.x=77&removeFlights.y=6
+Action.c(120): t=338195ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(120): t=338195ms: Closed connection [1] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(120): t=338223ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(120): t=338223ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(120): t=338475ms: 256-byte response headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     HTTP/1.1 200 OK\r\n
+Action.c(120):     Date: Thu, 02 Feb 2023 19:17:00 GMT\r\n
+Action.c(120):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(120):     Expires: Wed, 01 Feb 2023 19:17:00 GMT\r\n
+Action.c(120):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(120):     Connection: Keep-Alive\r\n
+Action.c(120):     Transfer-Encoding: chunked\r\n
+Action.c(120):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(120):     \r\n
+Action.c(120): t=338477ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     3a4\r\n
+Action.c(120): t=338477ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     \r\n
+Action.c(120): t=338477ms: 932-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     <!DOCTYPE html\n
+Action.c(120):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(120):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(120):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(120):     <head>\n
+Action.c(120):     <title>Flights List</title>\n
+Action.c(120):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(120):     </head>\n
+Action.c(120):     <body bgcolor="#E0E7F1">\n
+Action.c(120):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(120):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(120):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(120):     </style><BR/><BR/><h1>&nbsp;&nbsp;<b>Itinerary</b></h1>\n
+Action.c(120):     <blockquote><P break>Unfortunately, we could not delete your entire itinerary because of a
+Action.c(120):      database synchronization error.  If you could please re-load your itinerary and try again
+Action.c(120):     , we would appreciate it.  Thank you for your patience.</blockquote>\n
+Action.c(120):     </body>\n
+Action.c(120):     </html>
+Action.c(120): t=338491ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1, Internal ID=57)
+Action.c(120):     0\r\n
+Action.c(120):     \r\n
+Action.c(120): t=338491ms: Request done "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(120): Error -26366: "Text=ripley" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

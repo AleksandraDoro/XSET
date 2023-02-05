@@ -79,9 +79,6 @@ lr_start_transaction("open_site");
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-//				web_reg_find("Fail=NotFound",
-//				"Text/IC=Itinerary",
-//				LAST);	
 	
 	web_reg_save_param("flightID",
 		"LB/IC=flightID\" value=\"",
@@ -126,30 +123,6 @@ lr_start_transaction("open_site");
 		LAST);
 
 	lr_end_transaction("delete_booking",LR_AUTO);
-	
-	
-				lr_think_time(5);
-								
-
-	lr_start_transaction("logout");
-	
-				web_reg_find("Fail=NotFound",
-				"Text/IC=Welcome to the Web Tours site.",
-				LAST);
-
-	web_revert_auto_header("Sec-Fetch-User");
-
-
-	web_url("welcome.pl_2", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t5.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
 	
 	
 	
