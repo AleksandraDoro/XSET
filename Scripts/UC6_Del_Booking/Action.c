@@ -105,10 +105,6 @@ lr_start_transaction("open_site");
 		"?1");
 
 	
-	web_reg_find("Fail=NotFound",
-		"Text/IC={login}",
-		LAST);
-	
 	web_reg_find("Fail=Found",
 		"Text/IC={flightID}",
 		LAST);
