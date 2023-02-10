@@ -1,5 +1,0 @@
-[Diagnostics]
-Status=-1
-[Collate Recovery]
-Scenario=C:\Users\Aleksandra\Documents\GitHub\XSET\Scenario\Scenario8.lrs
-Completed=0
