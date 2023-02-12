@@ -91,8 +91,12 @@ Action()
 	
 	lr_start_transaction("profile_fill");
 	
+	
+	lr_save_string(lr_eval_string("{randomName}{randomPart}{randomPart2}{randomPart3}{randomName}{randomPart}{randomPart2}{randomPart3}"), "username_rnd");
+	
+	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Thank you, <b>{randomName}{randomPart}{randomPart2}{randomPart3}</b>,",
+		"Text/IC=Thank you, <b>{username_rnd}</b>,",
 		LAST);
 
 	web_submit_data("login.pl_3", 
@@ -104,10 +108,10 @@ Action()
 		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={randomName}{randomPart}{randomPart2}{randomPart3}", ENDITEM, 
+		"Name=username", "Value={username_rnd}", ENDITEM, 
 		"Name=password", "Value={randomPass}", ENDITEM, 
 		"Name=passwordConfirm", "Value={randomPass}", ENDITEM, 
-		"Name=firstName", "Value={randomName}{randomPart}{randomPart2}{randomPart3}", ENDITEM, 
+		"Name=firstName", "Value=username_rnd", ENDITEM, 
 		"Name=lastName", "Value={randomLast}", ENDITEM, 
 		"Name=address1", "Value=", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
@@ -122,7 +126,7 @@ Action()
 	lr_start_transaction("after_reg");
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Welcome, <b>{randomName}{randomPart}{randomPart2}{randomPart3}</b>, to the Web Tours reservation pages.",
+		"Text/IC=Welcome, <b>{username_rnd}</b>, to the Web Tours reservation pages.",
 		LAST);
 
 	web_revert_auto_header("Origin");

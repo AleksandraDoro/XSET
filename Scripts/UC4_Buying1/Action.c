@@ -2,7 +2,7 @@ Action()
 {
 		lr_start_transaction("UC4_Buying");
 		
-		lr_start_transaction("open_site");
+lr_start_transaction("open_site");
 
 			web_set_sockets_option("SSL_VERSION", "AUTO");
 		
@@ -54,17 +54,13 @@ Action()
 				"Mode=HTML", 
 				LAST);	
 	
-	lr_end_transaction("open_site", LR_AUTO);
+lr_end_transaction("open_site", LR_AUTO);
 
 	
 				lr_think_time(5);
 	
-	/* Buying_ticket */
-
 	
-	
-	
-	lr_start_transaction("login");
+lr_start_transaction("login");
 	
 
 			web_reg_find("Fail=NotFound",
@@ -95,7 +91,7 @@ Action()
 				"Name=JSFormSubmit", "Value=off", ENDITEM,
 				LAST);
 
-	lr_end_transaction("login",LR_AUTO);
+lr_end_transaction("login",LR_AUTO);
 
 	
 	
@@ -103,10 +99,9 @@ Action()
 	
 
 
-	lr_start_transaction("search_flights_button");
+lr_start_transaction("search_flights_button");
 	
-			web_revert_auto_header("Sec-Fetch-User");
-		
+			web_revert_auto_header("Sec-Fetch-User");	
 
 	web_url("Search Flights Button", 
 				"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -137,17 +132,20 @@ lr_start_transaction("choose_ticket");
 				LAST);
 		
 			
-			web_reg_save_param("outboundFlight",
+		web_reg_save_param("outboundFlight",
 		"LB/IC=outboundFlight\" value=\"",
 		"RB/IC=\"",
 		"Ord=ALL",
 		LAST);
+		
+
+	    web_reg_save_param("returnFlight",
+		"LB/IC=returnFlight\" value=\"",
+		"RB/IC=\"",
+		"Ord=All",
+		LAST);
+
 								
-					
-//			web_reg_save_param("returnFlight",
-//				"LB/IC=returnFlight\" value=\"",
-//				"RB/IC=\"",
-//				LAST);
 		
 			web_submit_data("reservations.pl",
 				"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -170,18 +168,18 @@ lr_start_transaction("choose_ticket");
 				"Name=findFlights.x", "Value=63", ENDITEM,
 				"Name=findFlights.y", "Value=9", ENDITEM,
 				"Name=.cgifields", "Value=roundtrip", ENDITEM,
-				"Name=.cgifields", "Value=seatType", ENDITEM,
-				"Name=.cgifields", "Value=seatPref", ENDITEM,
+				"Name=.cgifields", "Value={seatType}", ENDITEM,
+				"Name=.cgifields", "Value={seatPref}", ENDITEM,
 				LAST);
 
-	lr_end_transaction("choose_ticket",LR_AUTO);
+lr_end_transaction("choose_ticket",LR_AUTO);
 
 
 			lr_think_time(5);	
 	
 	
 	
-	lr_start_transaction("choose_time_of_flight");
+lr_start_transaction("choose_time_of_flight");
 	
 			web_reg_find("Fail=NotFound",
 				"Text/IC=Total for 1 ticket(s) is = $ ",
@@ -189,7 +187,7 @@ lr_start_transaction("choose_ticket");
 	
 
 	lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFlight_rnd");
-	
+	lr_save_string(lr_paramarr_random("returnFlight"), "returnFlight_rnd");	
 
 			web_submit_data("reservations.pl_2",
 		"Action=http://localhost:1080/cgi-bin/reservations.pl",
@@ -201,7 +199,7 @@ lr_start_transaction("choose_ticket");
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=outboundFlight", "Value={outboundFlight_rnd}", ENDITEM,
-		"Name=returnFlight", "Value={returnFlight}", ENDITEM,
+		"Name=returnFlight", "Value={returnFlight_rnd}", ENDITEM,
 		"Name=numPassengers", "Value=1", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
 		"Name=seatType", "Value={seatType}", ENDITEM,
@@ -210,13 +208,13 @@ lr_start_transaction("choose_ticket");
 		"Name=reserveFlights.y", "Value=10", ENDITEM,
 		LAST);
 
-	lr_end_transaction("choose_time_of_flight",LR_AUTO);
+lr_end_transaction("choose_time_of_flight",LR_AUTO);
 
 	
 			lr_think_time(5);
 	
 	
-		lr_start_transaction("payment");
+lr_start_transaction("payment");
 	
 
 			web_reg_find("Fail=NotFound",
@@ -247,7 +245,7 @@ lr_start_transaction("choose_ticket");
 		"Name=seatPref", "Value={seatPref}", ENDITEM,
 		"Name=outboundFlight", "Value={outboundFlight_rnd}", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
-		"Name=returnFlight", "Value={returnFlight}", ENDITEM,
+		"Name=returnFlight", "Value={returnFlight_rnd}", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		"Name=buyFlights.x", "Value=63", ENDITEM,
 		"Name=buyFlights.y", "Value=5", ENDITEM,
@@ -265,7 +263,7 @@ lr_start_transaction("choose_ticket");
 		
 
 			
-						web_reg_find("Fail=NotFound",
+		web_reg_find("Fail=NotFound",
 		"Text/IC=Itinerary",
 		LAST);	
 		
